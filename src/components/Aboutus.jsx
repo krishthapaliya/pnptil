@@ -1,37 +1,69 @@
-import React from 'react';
-import img from '../assets/images/Frame 59 (1).png'
-import phone from '../assets/icons/Vector.png'
+import React from 'react'
+import aboutus from '../assets/images/aboutus.png'
+import Whychoose from '../assets/images/WhychooseUs.png'
+
+import Carousel from "./Carousel";
+import Ourjourney from './Ourjourney';
 const Aboutus = () => {
-    return (
-        <div className=" md:px-28 flex flex-col justify-between md:flex-row items-center mt-8 md:gap-6">
-            
-            <div className=" md:w-1/2 flex flex-col gap-[24px]">
-                <h4 className="text-gray-600  ">About Us</h4>
-                <h2 className="text-gray-900 text-[48px] font-bold mt-2">
-                    A Deep Connection to Nepal’s Natural Riches
-                </h2>
-                <p className="text-gray-700 mt-4">
-                    At PNPNINTL, we are committed to bringing you a taste of this purity and tradition.
-                    Every product we offer is a result of close collaboration with local farmers, artisans,
-                    and suppliers who share our values of sustainability, ethical sourcing, and respect for the environment.
-                </p>
-                <div className='mt-32'>
-                <button className="bg-black text-white px-4 py-3  rounded-xl flex flex-row gap-2 items-center"> <img src={phone} alt='phone'/>
-                    Contact Us
-                </button>
+  return (
+    <div className='mx-32 my-4 flex flex-col gap-10 font-inter'>
+        <div>
+            <h1 className='text-[68px] font-bricolage'> <span className='text-blue-500'>Nepal’s </span>Pure Beauty & <br/>Wellness to Your Home.</h1></div>
+            <div>
+            <img src={aboutus} alt='aboutus' className='w-[1240px] h-[662px] rounded-xl'/>
+            </div>
+            <div className='flex  justify-between '><h2 className='text-[40px]'><span className='text-[#565656]'>Inspired by Nature, <br/></span>Trusted by Thousands</h2>
+            <div className='flex gap-[130px]'>
+                <div>
+                <h2 className='text-[64px]'>80+
+                <span className='text-[36px] text-[#565656]'>Products</span></h2>
+                </div>
+                <div>
+                    <h2 className='text-[64px]'>100+
+                    <span className='text-[36px] text-[#565656]'>Customers</span></h2>
+                </div>
+                </div>
+                </div>
+                <div className="bg-[#e9f4e7] font-inter flex flex-col gap-[24px] ">
+            <h2 className="text-[#434343] text-[16px] font-bold text-center ">
+                Why Choose us?
+            </h2>
+            <h1 className="text-gray-900 text-[32px] font-bold mt-2 text-center">
+                At PNPNINTL,  <span className="text-[#767676]"> our commitment</span>
+                <br />
+                goes beyond offering high-<br/>quality products.
+            </h1>
+
+            <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 ">
+                <div className="bg-blue-50 p-7 py-12 rounded-lg text-left flex flex-col gap-3 ">
+                    <img src={Whychoose} alt="Ethically Sourced" className=" w-[88px] h-[88px] mb-4 float-left" />
+                    <h3 className="text-lg font-semibold">Ethically Sourced</h3>
+                    <p className="text-gray-700 mt-2">
+                        At PNPNINTL, we ethically source and sustainably create products, empowering Nepal's communities while caring for people and the planet.
+                    </p>
+                </div>
+
+                <div className="bg-white p-7 py-12  flex flex-col gap-3 rounded-lg text-left">
+                    <img src={Whychoose} alt="Holistic Wellness" className="w-[88px] h-[88px] mb-4" />
+                    <h3 className="text-lg font-semibold">Holistic Wellness</h3>
+                    <p className="text-gray-700 mt-2">
+                        Our products combine traditional Nepali remedies with modern science, offering a harmonious fusion of nature and technology for overall well-being.
+                    </p>
+                </div>
+
+                <div className="bg-red-50 p-7 rounded-lg text-left flex flex-col items-start py-12 gap-4 ">
+                    <img src={Whychoose}  alt="Inspired by Nature" className="w-[88px] h-[88px] mb-4 " />
+                    <h3 className="text-lg font-semibold">Inspired by Nature</h3>
+                    <p className="text-gray-700 mt-2">
+                        Inspired by Nepal's natural remedies, PNPNINTL blends ancient wisdom with modern science to create effective, gentle, and holistic wellness products.
+                    </p>
                 </div>
             </div>
-
-            
-            <div className="w-[573px] mt-8 h-[680px] md:mt-0">
-                <img 
-                    src={img}
-                    alt="Two people collaborating" 
-                    className="w-full h-auto rounded-md"
-                />
-            </div>
         </div>
-    );
-};
+        <Ourjourney/>
+        <Carousel />
+    </div>
+  )
+}
 
-export default Aboutus;
+export default Aboutus

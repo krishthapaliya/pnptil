@@ -4,7 +4,7 @@ import icon1 from '../assets/icons/Luxurious.png'
 import icon2 from '../assets/icons/Herbal.png'
 const NatureAmbitions = () => {
     return (
-        <div className="bg-[#e9f4e7] p-8 flex flex-col md:flex-row items-center font-inter px-28">
+        <div className="bg-[#e9f4e7]  flex flex-col md:flex-row items-center font-inter ">
            
             <div className="md:w-1/2 md:h-1/2">
                 <img 

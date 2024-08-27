@@ -2,7 +2,7 @@ import React from 'react';
 import Whychoose from '../assets/images/WhychooseUs.png'
 const WhyChooseUs = () => {
     return (
-        <div className="bg-[#e9f4e7] p-28 font-inter flex flex-col gap-[24px] ">
+        <div className="bg-[#e9f4e7] font-inter flex flex-col gap-[24px] ">
             <h2 className="text-[#434343] text-[16px] font-bold ">
                 Why Choose us?
             </h2>

@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Aboutus from './components/Aboutus'
 import Navbar from './components/Navbar'
 import Contactus from './components/Contactus'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ const App = () => {
           <Route path='/Aboutus' element={<Aboutus/>}/>
           <Route path='/Contactus' element={<Contactus />}/>
 </Routes>
+<Footer/>
 </div>
 </BrowserRouter>
    

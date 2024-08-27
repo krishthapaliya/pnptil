@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import logo from '../assets/images/Logo.png';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import logo from "../assets/images/Logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -9,6 +9,17 @@ const Navbar = () => {
     setActive(section);
   };
 
+  useEffect(() => {
+    const path = window.location.pathname;
+    if (path === "/Aboutus") {
+      setActive("Aboutus");
+    } else if (path === "/Contactus") {
+      setActive("Contactus");
+    } else {
+      setActive("Home");
+    }
+  }, [window.location.pathname]);
+
   return (
     <div className="px-4 md:px-[120px] py-4 flex justify-between items-center">
       <div>
@@ -16,7 +27,6 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
-            onClick={() => handleClick("Home")}
             className="h-[36px] md:h-[44px] hover:scale-105 transition-transform duration-500 "
           />
         </Link>

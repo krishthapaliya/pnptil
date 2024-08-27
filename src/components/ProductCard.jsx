@@ -4,7 +4,7 @@ import React from "react";
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="border p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow bg-white">
+    <div className="border p-4 w-full rounded-lg shadow-md hover:shadow-lg transition-shadow bg-[#DCEADA] ">
       <div className="flex justify-between items-center mb-2">
         <span className="bg-green-100 text-green-800 text-xs font-medium px-2 py-1 rounded">
           {product.label}

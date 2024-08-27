@@ -40,7 +40,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className='flex flex-col font-inter bg-[rgb(253,249,244)] mx-28 my-4 rounded-xl'>
+    <div className='flex flex-col font-inter bg-[rgb(253,249,244)]  my-4 rounded-xl'>
       <div className='text-center'>
         <h1 className='text-[48px] font-bold'>Testimonials</h1>
         <p className='text-[24px] text-[#565656]'>Reviews from the customers we served</p>
