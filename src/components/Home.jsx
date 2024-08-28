@@ -11,7 +11,7 @@ import ProductList from "./Productlist";
 
 const Home = () => {
   return (
-    <div className="my-8 md:my-16 md:mx-28 mx-10 flex flex-col gap-8 md:gap-12 items-center">
+    <div className="my-8 md:my-16 md:mx-16 lg:mx-28  flex flex-col gap-8 md:gap-12 items-center">
       <div className="flex flex-col gap-6 md:gap-8 max-w-3xl text-center">
         <h1 className="font-bold font-bricolage text-3xl md:text-4xl lg:text-5xl leading-tight md:leading-snug">
           Crafted by Nature,
@@ -80,8 +80,7 @@ const Home = () => {
       <div className="  w-full py-8">
         <div className="container mx-auto px-4">
           <ProductList />
-          {/* <ProductList />
-          <ProductList /> */}
+          
         </div>
       </div>
 
