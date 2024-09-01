@@ -176,14 +176,31 @@ const Contactus = () => {
           </div>
         </div>
       </div>
+      <div className="bg-orange-100">
+      <div className="py-4 text-center my-8">
+        <h1 className="text-24px md:text-[48px]">Discover the Route to Authenticity</h1>
+        <p className="text-base opacity-60">Navigate the map to connect with us and embrace the essence of Nepal</p>
+      </div>
+      <div className="flex justify-between   ">
+        <div className="p-28">
+          <p className="my-2">ADDRESS</p>
+          <p className="text-2xl font-semibold ">P&p International PVT.LTD.</p>
+          <p className="opacity-55">156-000-43 TOKYO TO SETXGAYA, KU<br/>
+          MATSUBARA 2-17-14<br/>
+          MEZON.DO.SERESUTO,201
+          </p>
+          
+        </div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7062.019983497271!2d85.32638590909093!3d27.747837818181814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19f19be88469%3A0x7297381034c6496c!2sBhat-Bhateni%20Superstore%20-%20Tokha!5e0!3m2!1sen!2snp!4v1724772951854!5m2!1sen!2snp"
         width="600"
         height="450"
         allowfullscreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerpolicy="no-referrer-when-downgrade" className="rounded-2xl p-10"
       ></iframe>
+      </div>
+      </div>
 
       <Carousel />
     </div>

@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <BrowserRouter>
-     <div>
+     <div className='font-inter'>
      <Navbar/> 
 <Routes>
 

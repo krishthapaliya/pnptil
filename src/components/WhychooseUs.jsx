@@ -2,11 +2,11 @@ import React from 'react';
 import Whychoose from '../assets/images/WhychooseUs.png'
 const WhyChooseUs = () => {
     return (
-        <div className="bg-[#e9f4e7] font-inter flex flex-col gap-[24px] ">
+        <div className="bg-[#e9f4e7] font-inter bn flex flex-col gap-[24px] ">
             <h2 className="text-[#434343] text-[16px] font-bold ">
                 Why Choose us?
             </h2>
-            <h1 className="text-gray-900 text-[48px] font-bold mt-2">
+            <h1 className="text-gray-900 text-[24px] md:text-[48px] font-bold mt-2">
                 At PNPNINTL,  <span className="text-[#767676]"> our commitment</span>
                 <br />
                 goes beyond offering high-<br/>quality products.
