@@ -18,24 +18,33 @@ const Aboutus = () => {
         <img
           src={aboutus}
           alt="aboutus"
-          className="w-[1240px] h-[662px] rounded-xl"
-        />
+          className="w-[1240px] h-[662px] rounded-xl"/>
+          
       </div>
-      <div className="flex  justify-between leading-[50px] items-center ">
-        <h2 className="text-[40px] ">
-          <span className="text-[#565656]">
+      <div className="flex flex-col lg:flex-row justify-between items-center my-8">
+        <h2 className="text-xl md:text-2xl lg:text-3xl text-center lg:text-left mb-6 lg:mb-0">
+          <span className="text-gray-600">
             Inspired by Nature, <br />
           </span>
           Trusted by Thousands
         </h2>
-        <div className="flex gap-[130px]">
-          <div className="flex flex-col">
-            <h2 className="text-[64px] leading-10">80+</h2>
-            <span className="text-[36px] text-[#565656]">Products</span>
+        <div className="flex gap-8 lg:gap-16">
+          <div className="text-center">
+            <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold">
+              80+ <br />
+              <span className="text-base md:text-lg xl:text-xl text-gray-600">
+                Products
+              </span>
+            </h2>
           </div>
-          <div className="flex flex-col">
-            <h2 className="text-[64px] leading-10">100+</h2>
-            <span className="text-[36px] text-[#565656]">Customers</span>
+          <div className="text-center">
+            <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold">
+              100+
+              <br />
+              <span className="text-base md:text-lg xl:text-xl text-gray-600">
+                Customers
+              </span>
+            </h2>
           </div>
         </div>
       </div>
