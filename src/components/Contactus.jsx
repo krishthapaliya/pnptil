@@ -5,14 +5,12 @@ import Carousel from "./Carousel";
 const Contactus = () => {
   return (
     <div className="mx-4 md:mx-8 lg:mx-16 xl:mx-24 mt-8 lg:mt-12 xl:mt-14">
-      
       <div>
         <h1 className="text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-bricolage leading-tight">
           We’re here to help with any questions or support you need.
         </h1>
       </div>
 
-      
       <div className="my-6">
         <img
           src={contactus}
@@ -21,7 +19,6 @@ const Contactus = () => {
         />
       </div>
 
-      
       <div className="flex flex-col lg:flex-row justify-between items-center my-8">
         <h2 className="text-xl md:text-2xl lg:text-3xl text-center lg:text-left mb-6 lg:mb-0">
           <span className="text-gray-600">
@@ -50,10 +47,8 @@ const Contactus = () => {
         </div>
       </div>
 
-      
       <div className="bg-gray-50 py-8 lg:py-12 xl:py-16 px-4 lg:px-8 xl:px-16  rounded-md shadow-md">
         <div className="flex flex-col lg:flex-row justify-between">
-         
           <div className="w-full lg:w-1/3 mb-8 lg:mb-0">
             <h2 className="text-xl lg:text-2xl font-bold mb-4">
               Get in Touch With Us!
@@ -198,7 +193,6 @@ const Contactus = () => {
         </div>
       </div>
 
-      
       <div className="bg-orange-100 py-8">
         <div className="text-center mb-8">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
@@ -211,22 +205,22 @@ const Contactus = () => {
         <div className="flex flex-col lg:flex-row justify-between py-16 px-4 lg:px-8 xl:px-16">
           <div className="mb-8 lg:mb-0">
             <p className="font-semibold">ADDRESS</p>
-            <p className="text-lg font-bold">
-              P&p International PVT.LTD.
-            </p>
+            <p className="text-lg font-bold">P&p International PVT.LTD.</p>
             <p className="text-gray-700">
-              156-000-43 TOKYO TO SETXGAYA, KU<br />
-              MATSUBARA 2-17-14<br />
+              156-000-43 TOKYO TO SETXGAYA, KU
+              <br />
+              MATSUBARA 2-17-14
+              <br />
               MEZON.DO.SERESUTO, 201
             </p>
           </div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7062.019983497271!2d85.32638590909093!3d27.747837818181814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19f19be88469%3A0x7297381034c6496c!2sBhat-Bhateni%20Superstore%20-%20Tokha!5e0!3m2!1sen!2snp!4v1724772951854!5m2!1sen!2snp"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3241.699844135295!2d139.66914727623055!3d35.65976613115199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDM5JzM1LjEiTiAxMznCsDQwJzE4LjIiRQ!5e0!3m2!1sen!2snp!4v1725204614646!5m2!1sen!2snp"
             width="600"
             height="450"
-            allowFullScreen=""
+            allowfullscreen=""
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerpolicy="no-referrer-when-downgrade"
             className="rounded-lg w-full max-w-md lg:max-w-lg xl:max-w-xl"
           ></iframe>
         </div>
