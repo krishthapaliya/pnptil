@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const handleClick = (section) => {
     setActive(section);
-    setIsMobileMenuOpen(false); 
+    setIsMobileMenuOpen(false);
   };
 
   useEffect(() => {
@@ -24,7 +24,6 @@ const Navbar = () => {
 
   return (
     <div className="px-4 md:px-[120px] py-4 flex justify-between items-center relative">
-      
       <div>
         <Link to="/Home">
           <img
@@ -35,7 +34,10 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="md:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+      <div
+        className="md:hidden"
+        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+      >
         <span className="text-2xl cursor-pointer">☰</span>
       </div>
 
@@ -77,7 +79,6 @@ const Navbar = () => {
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         } w-[250px] z-50 md:hidden`}
       >
-       
         <div className="flex justify-end p-4">
           <span
             className="text-2xl cursor-pointer"
@@ -86,7 +87,7 @@ const Navbar = () => {
             ✕
           </span>
         </div>
-        
+
         <div className="flex flex-col items-center gap-4 py-4">
           <Link to="/Home">
             <button

@@ -1,5 +1,6 @@
 {
   "name": "project",
+  "homepage": "https://pnpintl.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
