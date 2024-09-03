@@ -22,6 +22,21 @@ import organiccoffee from '../assets/images/organic coffee.jpeg'
 import shampoo from '../assets/images/Parachute natural shampoo.jpeg'
 import herbaltea from '../assets/images/supplement herbal tea.jpeg'
 import slimmingtea from '../assets/images/Progenitor Slimming Black Tea.jpeg'
+import apricotscrub from '../assets/images/apricot scrub.jpeg'
+import chandramukhi from '../assets/images/chandramukhi herbal cream.jpeg'
+import cloveandtulsi from '../assets/images/clove and tulsi.jpeg'
+import coconutoil from '../assets/images/coconut oil.jpeg'
+import facetoner from '../assets/images/face tonner.jpeg'
+import goldfacepack from '../assets/images/gold face pack.jpeg'
+import goldscrub from '../assets/images/gold scrub.jpeg'
+import greencucumber from '../assets/images/green cucumber toner.jpeg'
+import methi from '../assets/images/methi.jpeg'
+import multaniwithsaffron from '../assets/images/multani with saffron 80gm.jpeg'
+import pondpuredetox from "../assets/images/pond's pure detox.jpeg"
+import pondsbrightbeauty from "../assets/images/ponds bright beauty super cream.jpeg"
+import rosetoner from "../assets/images/rose toner.jpeg"
+import shieldpro from "../assets/images/shield pro.jpeg"
+
 
 const ProductList = () => {
   const products = [
@@ -151,12 +166,13 @@ const ProductList = () => {
           label: "Best Selling",
           name: "Bright Beauty super cream ",
           price:"¥ 1100",
-          image: "path/to/your/image3.jpg",
+          image: pondsbrightbeauty,
         },
         {
           label: "Best Selling",
-          name: "Night Serum",
-          image: "path/to/your/image3.jpg",
+          name: "Pure Detox 100gm",
+          price: "¥ 761",
+          image: pondpuredetox,
         },
       ],
     },
@@ -187,6 +203,107 @@ const ProductList = () => {
           price:"¥ 850",
           image: dentalcare,
         },
+      ],
+    },
+    {
+      title: "Parachute product",
+      product: [
+        {
+          label: "Best Selling",
+          name: "Coconut oil 90ml",
+          price:"¥ 330",
+          image: coconutoil,
+        },
+        {
+          label: "Best Selling",
+          name: "Coconut oil 450ml",
+          price:"¥ 1200",
+          image: coconutoil,
+        },
+        {
+          label: "Best Selling",
+          name: "Shampoo ",
+          price:"¥ 1200",
+          image: shampoo,
+        },
+        
+      ],
+    },
+    {
+      title: "Sumnima Herbal",
+      product: [
+        {
+          label: "Best Selling",
+          name: "Multani with saffron 80gm",
+          price:"¥ 259",
+          image: multaniwithsaffron,
+        },
+        {
+          label: "Best Selling",
+          name: "Methi Powder",
+          price:"¥ 216",
+          image: methi,
+        },
+        {
+          label: "Best Selling",
+          name: "Rose Toner 140ml ",
+          price:"¥ 859",
+          image: rosetoner,
+        },
+        {
+          label: "Best Selling",
+          name: "Green Cucumber toner 140ml",
+          price:"¥ 956",
+          image: greencucumber,
+        },
+        {
+          label: "Best Selling",
+          name: "Shield pro sun Protection Cream 100ml ",
+          price:"¥ 1729",
+          image: shieldpro,
+        },
+        {
+          label: "Best Selling",
+          name: "Gold Face Pack 100ml",
+          price:"¥ 940",
+          image: goldfacepack,
+        },
+        {
+          label: "Best Selling",
+          name: "Apricat Scrub 60gm ",
+          price:"¥ 421",
+          image: apricotscrub,
+        },
+        {
+          label: "Best Selling",
+          name: "Gold Scrub 100ml",
+          price:"¥ 859",
+          image: goldscrub,
+        },
+      ],
+    },
+    {
+      title: "Om Riddhi Siddhi",
+      product: [
+        {
+          label: "Best Selling",
+          name: "Clove and Tulsi 250ml",
+          price:"¥ 1053 ",
+          image: cloveandtulsi,
+        },
+        {
+          label: "Best Selling",
+          name: "Face toner 100ml",
+          price:"¥ 918",
+          image: facetoner,
+        },
+        {
+          label: "Best Selling",
+          name: "Chandramukhi Herbal Cream 20g",
+          price:"¥ 1512",
+          image: chandramukhi,
+        },
+        
       ],
     },
   ];
