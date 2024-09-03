@@ -36,7 +36,8 @@ import pondpuredetox from "../assets/images/pond's pure detox.jpeg"
 import pondsbrightbeauty from "../assets/images/ponds bright beauty super cream.jpeg"
 import rosetoner from "../assets/images/rose toner.jpeg"
 import shieldpro from "../assets/images/shield pro.jpeg"
-
+import oriageless from '../assets/images/oriageless.jpeg'
+import multicolorhemp from '../assets/images/multicolorhemp.png'
 
 const ProductList = () => {
   const products = [
@@ -109,6 +110,12 @@ const ProductList = () => {
           price: "¥ 1300",
           image: hempslippershoes,
         },
+        {
+          label: "Best Selling",
+          name: "Multi Color Backpack ",
+          price: "¥ 1500",
+          image: multicolorhemp,
+        },
       ],
     },
     {
@@ -118,7 +125,7 @@ const ProductList = () => {
           label: "Best Selling",
           name: "Ori ageless 30ml ",
           price: "¥ 3222",
-          image: hempfabricindoor,
+          image: oriageless,
         },
         {
           label: "Best Selling",
