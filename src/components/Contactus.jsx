@@ -207,7 +207,7 @@ const Contactus = () => {
             <p className="font-semibold">ADDRESS</p>
             <p className="text-lg font-bold">P&p International PVT.LTD.</p>
             <p className="text-gray-700">
-              156-000-43 TOKYO TO SETXGAYA, KU
+              156-000-43 TOKYO TO SETAGAYA, KU
               <br />
               MATSUBARA 2-17-14
               <br />
