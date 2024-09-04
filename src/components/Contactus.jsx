@@ -205,7 +205,7 @@ const Contactus = () => {
         <div className="flex flex-col lg:flex-row justify-between py-16 px-4 lg:px-8 xl:px-16">
           <div className="mb-8 lg:mb-0">
             <p className="font-semibold">ADDRESS</p>
-            <p className="text-lg font-bold">P&p International PVT.LTD.</p>
+            <p className="text-lg font-bold">P&P International PVT.LTD.</p>
             <p className="text-gray-700">
               156-000-43 TOKYO TO SETXGAYA, KU
               <br />

@@ -18,8 +18,8 @@ const Aboutus = () => {
         <img
           src={aboutus}
           alt="aboutus"
-          className="w-[1240px] h-[662px] rounded-xl"/>
-          
+          className="w-[1240px] h-[662px] rounded-xl"
+        />
       </div>
       <div className="flex flex-col lg:flex-row justify-between items-center my-8">
         <h2 className="text-xl md:text-2xl lg:text-3xl text-center lg:text-left mb-6 lg:mb-0">
@@ -53,7 +53,7 @@ const Aboutus = () => {
           Why Choose us?
         </h2>
         <h1 className="text-gray-900 text-[32px] font-bold mt-2 text-center">
-          At PNPNINTL, <span className="text-[#767676]"> our commitment</span>
+          At P&P International, <span className="text-[#767676]"> our commitment</span>
           <br />
           goes beyond offering high-
           <br />
@@ -69,7 +69,7 @@ const Aboutus = () => {
             />
             <h3 className="text-lg font-semibold">Ethically Sourced</h3>
             <p className="text-gray-700 mt-2">
-              At PNPNINTL, we ethically source and sustainably create products,
+              At P&P International, we ethically source and sustainably create products,
               empowering Nepal's communities while caring for people and the
               planet.
             </p>
@@ -97,7 +97,7 @@ const Aboutus = () => {
             />
             <h3 className="text-lg font-semibold">Inspired by Nature</h3>
             <p className="text-gray-700 mt-2">
-              Inspired by Nepal's natural remedies, PNPNINTL blends ancient
+              Inspired by Nepal's natural remedies, P&P International blends ancient
               wisdom with modern science to create effective, gentle, and
               holistic wellness products.
             </p>

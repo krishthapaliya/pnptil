@@ -11,7 +11,7 @@ const AboutusHome = () => {
           A Deep Connection to Nepal’s Natural Riches
         </h2>
         <p className="text-gray-700 mt-4 text-center md:text-left">
-          At PNPNINTL, we are committed to bringing you a taste of this purity
+          At P&P INTERNATIONALL, we are committed to bringing you a taste of this purity
           and tradition. Every product we offer is a result of close
           collaboration with local farmers, artisans, and suppliers who share
           our values of sustainability, ethical sourcing, and respect for the

@@ -28,7 +28,7 @@ const Ourjourney = () => {
           </p>
         </div>
         <div className='bg-[#d0e0ee]  p-[16px] rounded-xl mt-9'>
-          <p className='italic text-[#767676] text-[20px]'>“ PNPINTL bridges Nepal’s rich heritage with modern wellness, honoring ethical sourcing, sustainability, and tradition in every product—an inspiring testament to mindful living."</p>
+          <p className='italic text-[#767676] text-[20px]'>“ P&P International bridges Nepal’s rich heritage with modern wellness, honoring ethical sourcing, sustainability, and tradition in every product—an inspiring testament to mindful living."</p>
           <div className='flex  items-center mt-[16px]'>
             <img src={avatar} alt="Avatar" className='w-[40px] h-[40px] rounded-full mr-[8px]'/>
             <div>
