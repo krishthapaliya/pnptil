@@ -207,7 +207,7 @@ const Contactus = () => {
             <p className="font-semibold">ADDRESS</p>
             <p className="text-lg font-bold">P&P International PVT.LTD.</p>
             <p className="text-gray-700">
-              156-000-43 TOKYO TO SETXGAYA, KU
+              156-000-43 TOKYO TO SETAGAYA, KU
               <br />
               MATSUBARA 2-17-14
               <br />
@@ -216,7 +216,6 @@ const Contactus = () => {
           </div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.4634698079935!2d139.6481385!3d35.6655884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f33ab89ae229%3A0xd75f4f4046644079!2z44Oh44K-44Oz44OJ44K744Os44K544OI!5e0!3m2!1sen!2snp!4v1725468571385!5m2!1sen!2snp"
-            style="border:0;"
             width="600"
             height="450"
             allowfullscreen=""
