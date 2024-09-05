@@ -36,7 +36,7 @@ const Ourjourney = () => {
               <p className='text-sm text-[#767676]'>CEO, PNPTL</p>
             </div>
           </div>
-          <p className='text-xl font-bold text-[#767676] mt-4'>*Logoispum</p>
+          
         </div>
       </div>
     </div>
