@@ -109,7 +109,7 @@ const Contactus = () => {
                     />
                   </svg>
                 </div>
-                <span className="ml-3 text-lg">St. Mary Island, Tokyo</span>
+                <span className="ml-3 text-lg">テ 156-0043 TOKYO TO SETAGAYA, KU</span>
               </div>
             </div>
           </div>

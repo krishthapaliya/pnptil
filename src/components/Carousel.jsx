@@ -11,7 +11,7 @@ const Carousel = () => {
       
     },
     {
-      name: 'John D.',
+      name: 'Balendra Shah',
       title: 'Marketing Director',
       content: 'The products provided by this company have significantly improved our team’s well-being and productivity. The attention to detail and quality is unparalleled.',
       avatar: Avatar,

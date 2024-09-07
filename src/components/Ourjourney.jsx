@@ -2,7 +2,7 @@ import React from 'react';
 import ourjourney from '../assets/images/ourjourney.png';
 import image2 from '../assets/images/ourjourney2.png';
 import image3 from '../assets/images/ourjourney3.png';
-import avatar from '../assets/icons/Avatar.png'
+import profile from '../assets/images/profile.jpg'
 
 const Ourjourney = () => {
   return (
@@ -30,10 +30,10 @@ const Ourjourney = () => {
         <div className='bg-[#d0e0ee]  p-[16px] rounded-xl mt-9'>
           <p className='italic text-[#767676] text-[20px]'>“ P&P International bridges Nepal’s rich heritage with modern wellness, honoring ethical sourcing, sustainability, and tradition in every product—an inspiring testament to mindful living."</p>
           <div className='flex  items-center mt-[16px]'>
-            <img src={avatar} alt="Avatar" className='w-[40px] h-[40px] rounded-full mr-[8px]'/>
+            <img src={profile} alt="profile" className='w-[40px] h-[40px] rounded-full mr-[8px]'/>
             <div>
               <p className='font-bold'>Sarah L.</p>
-              <p className='text-sm text-[#767676]'>CEO, PNPTL</p>
+              <p className='text-sm text-[#767676]'>CEO, Prabesh Pathak</p>
             </div>
           </div>
           
