@@ -32,8 +32,7 @@ const Ourjourney = () => {
           <div className='flex  items-center mt-[16px]'>
             <img src={profile} alt="profile" className='w-[40px] h-[40px] rounded-full mr-[8px]'/>
             <div>
-              <p className='font-bold'>Sarah L.</p>
-              <p className='text-sm text-[#767676]'>CEO, Prabesh Pathak</p>
+              <p className='text-sm text-[#767676]'>CEO, Pravesh Pathak</p>
             </div>
           </div>
           

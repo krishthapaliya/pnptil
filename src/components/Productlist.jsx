@@ -38,6 +38,7 @@ import rosetoner from "../assets/images/rose toner.jpeg"
 import shieldpro from "../assets/images/shield pro.jpeg"
 import oriageless from '../assets/images/oriageless.jpeg'
 import multicolorhemp from '../assets/images/multicolorhemp.png'
+import greentea from '../assets/images/greentea.jpg'
 
 const ProductList = () => {
   const products = [
@@ -147,7 +148,7 @@ const ProductList = () => {
         },
         {
           label: "Best Selling",
-          name: "Ori Bio White 100mg ",
+          name: "Ori Bio White 100gm ",
           price: "¥ 590",
           image: orifacescrub,
         },
@@ -210,6 +211,13 @@ const ProductList = () => {
           price:"¥ 850",
           image: dentalcare,
         },
+        {
+          label: "Best Selling",
+          name: "Organic Green Tea 30gm",
+          price:"¥ 400",
+          image: greentea,
+
+        }
       ],
     },
     {
@@ -287,6 +295,7 @@ const ProductList = () => {
           price:"¥ 859",
           image: goldscrub,
         },
+     
       ],
     },
     {
