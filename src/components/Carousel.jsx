@@ -1,27 +1,28 @@
 import React, { useState } from 'react';
 import Avatar from '../assets/icons/Avatar.png';
-
+import man from '../assets/images/man.jpg'
+import women from '../assets/images/women.jpg'
 const Carousel = () => {
   const reviews = [
     {
       name: 'Sarah L.',
-      title: 'Hospitality Manager',
+      title: 'Product Manager',
       content: 'We strive to deliver products that encapsulate the essence of nature. Each item we offer is thoughtfully curated to promote wellness, beauty, and mindful living for our customers in Japan and beyond. Display reviews and testimonials from satisfied customers, focusing on how the products have enhanced their wellness and lifestyle.',
       avatar: Avatar,
       
     },
     {
       name: 'Balendra Shah',
-      title: 'Marketing Director',
+      // title: 'Marketing Director',
       content: 'The products provided by this company have significantly improved our team’s well-being and productivity. The attention to detail and quality is unparalleled.',
-      avatar: Avatar,
+      avatar: man,
      
     },
     {
       name: 'Emily R.',
-      title: 'Product Manager',
+      // title: 'Hospitality Manager',
       content: 'Our clients have been more than satisfied with the quality of these products. They align perfectly with our brand values of sustainability and health.',
-      avatar: Avatar,
+      avatar: women,
       
     },
   ];

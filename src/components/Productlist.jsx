@@ -160,13 +160,13 @@ const ProductList = () => {
       product: [
         {
           label: "Best Selling",
-          name: "Bright Beauty 100mg",
+          name: "Bright Beauty 100gm",
           price:"¥ 745",
           image: brightbeauty,
         },
         {
           label: "Best Selling",
-          name: "Acne Control 100mg",
+          name: "Acne Control 100gm",
           price:"¥ 745",
           image: acnecontrol,
         },
@@ -315,7 +315,7 @@ const ProductList = () => {
         },
         {
           label: "Best Selling",
-          name: "Chandramukhi Herbal Cream 20g",
+          name: "Chandramukhi Herbal Cream 20gm",
           price:"¥ 1512",
           image: chandramukhi,
         },
